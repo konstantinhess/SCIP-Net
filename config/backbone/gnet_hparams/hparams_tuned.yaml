@@ -1,0 +1,17 @@
+# @package _global_
+dataset:
+  coeff: 1.0
+
+model:
+  g_net:
+    optimizer:
+      learning_rate: 0.01
+    num_layer: 1
+    batch_size: 64
+    seq_hidden_units: 28
+    fc_hidden_units: 56
+    dropout_rate: 0.2
+    r_size: 14
+
+exp:
+  max_epochs: 50
